@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;AAAAA,OAAO,CAACC,GAAG,CAAC,sBAAsB,CAAC;AACnCC,KAAK,CAAC,YAAY,CAAC,C","sources":["webpack://aula093/./src/script.js"],"sourcesContent":["console.log('webpack functionando')\r\nalert('Olá mundo!')"],"names":["console","log","alert"],"sourceRoot":""}
