@@ -1,0 +1,19 @@
+{
+  "name": "aula092",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel ./script.js -o ./bundle.js --presets=@babel/env -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7"
+  }
+}
