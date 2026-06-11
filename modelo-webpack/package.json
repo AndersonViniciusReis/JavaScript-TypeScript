@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "gera": "webpack -w"
+    "dev": "webpack -w"
   },
   "devDependencies": {
     "@babel/cli": "^7.29.7",
@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "core-js": "^3.49.0",
-    "regenerator-runtime": "^0.14.1"
+    "css-loader": "^7.1.4",
+    "regenerator-runtime": "^0.14.1",
+    "style-loader": "^4.0.0"
   }
 }

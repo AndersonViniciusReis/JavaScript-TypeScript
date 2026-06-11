@@ -1,2 +1,1 @@
-console.log('webpack functionando')
-alert('Olá mundo!')
+import './assets/css/style.css';

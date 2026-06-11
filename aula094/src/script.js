@@ -122,6 +122,6 @@ Importar default → import x from "./arquivo"
 Próximo passo:
 Babel → Webpack → módulos ES → bundling → tree shaking
 */
-import multiplica, { nome, sobrenome, idade, soma} from './modulo1';
+import { nome, sobrenome, idade, soma } from './modulo1.js';
 
 console.log(nome, sobrenome, idade, soma);

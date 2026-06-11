@@ -151,14 +151,20 @@ module.exports = {
     module: {
         rules: [{
             exclude: /node_modules/,
-            test: /\.js$/,
+            test: /\.m?js$/,
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['@babel/env']
+                    presets: ['@babel/preset-env']
                 }
             }
+        }, {
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
         }]
+    },
+    resolve: {
+        extensions: ['.js']
     },
     devtool: 'source-map'
 };

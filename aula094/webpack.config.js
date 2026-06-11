@@ -155,7 +155,7 @@ module.exports = {
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['@babel/env']
+                    presets: ['@babel/preset-env']
                 }
             }
         }]
