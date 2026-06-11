@@ -155,7 +155,8 @@ module.exports = {
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['@babel/preset-env']
+                    babelrc: false,
+                    presets: [['@babel/preset-env', { modules: 'commonjs' }]]
                 }
             }
         }, {
